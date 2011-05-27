@@ -434,7 +434,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>©2000-2010 the MPlayer developers
+	<string>©2000-2011 the MPlayer developers
 
 This software uses libraries from the MPlayer project under the GPLv2</string>
 	<key>NSPrincipalClass</key>
