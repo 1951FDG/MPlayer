@@ -217,7 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=/opt/local/bin:/opt/local/sbin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin; cd $SRCROOT; if [ ! -d mplayer-build ]; then git clone git://repo.or.cz/mplayer-build.git; cd mplayer-build; ./enable-mt; ./init --shallow; fi; cd $SRCROOT/mplayer-build; ./clean; ./update; make";
+			shellScript = "export PATH=/opt/local/bin:/opt/local/sbin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin; cd $SRCROOT; if [ ! -d mplayer-build ]; then git clone git://repo.or.cz/mplayer-build.git; cd mplayer-build; ./init --shallow; fi; cd $SRCROOT/mplayer-build; ./clean; ./update; make";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
